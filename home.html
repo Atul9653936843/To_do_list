@@ -1,0 +1,61 @@
+<html>
+<head>
+    <title>Document</title>
+</head>
+<style>
+    body
+    {
+        display:flex;
+        height:100%;
+        margin:0px;
+        padding:0px;
+        background:black;
+    }
+
+    #div1
+    {
+      flex:1;
+      height:100%;
+      background:wheat;
+    }
+
+    #div2
+    {
+      flex:1;
+      height:100%;
+      background:grey;
+    }
+
+    #textarea
+    {
+      width: 100%;
+      height: 50%;
+    }
+
+    .todocontainer
+      {
+        display:flex;
+        background:blue;
+        justify-content:space-between;
+        margin:10px;
+      }
+
+   
+    </style>
+<body>
+   <div id="div1">
+    <h1>TASK LIST</h1>
+    <p>Add task to your list by typing to the right and pressing enter. You may then view pending tasks below.</p>
+   </div>
+
+   <div id="div2">
+    <textarea id="textarea" placeholder="enter something"></textarea>
+    <button id="savetodo">SAVE</button>
+    <button id="logout">logout</button>
+   </div>
+
+   
+</body>
+
+<script src="script.js"></script>
+</html>
